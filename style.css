@@ -12,7 +12,7 @@ nav {
   background-color:#6e6568;
 }
 
-a {
+.b {
   display:block;
   float:left;
   color:white;
@@ -24,12 +24,12 @@ a {
   border-right:0px solid white;
 }
 
-a:hover {
+.b:hover {
   background-color:#ead3a8;
   color:maroon;
 }
 
-img {
+.me {
   display:block;
   margin:auto;
   width:40%;
@@ -86,4 +86,15 @@ form {
   margin-right:auto;
   background-color:#6e6568;
   margin:20px auto;
+}
+
+.pic {
+  display: block;
+  margin: auto;
+  width: 5%;
+}
+
+.pic:hover {
+transform: scale(1.3);
+    transition: all 1s;
 }
